@@ -151,7 +151,7 @@ body {
   font-family: var(--font);
   color: var(--veryDarkDesaturatedBlue);
   width: 100%;
-  height: 100%;
+  height: 100vh;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 25px;
@@ -167,7 +167,6 @@ main {
   max-height: 535px;
   background-color: var(--lightGrayishBlue);
   border-radius: var(--borderRadius);
-  margin: 150px 0;
   font-family: var(--font);
   position: relative;
 }
@@ -283,7 +282,8 @@ main {
 
 @media only screen and (min-width: 768px) {
   main {
-    width: 920px;
+    max-width: 920px;
+    width: 100%;
     height: 510px;
     display: flex;
     background-image: url('./images/bg-pattern-desktop.svg');
