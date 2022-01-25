@@ -173,7 +173,6 @@ main {
 }
 
 .card-images {
-  /* display: flex; */
   position: absolute;
   width: 250px;
   height: 180px;
