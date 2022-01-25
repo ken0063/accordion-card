@@ -165,7 +165,7 @@ body {
 main {
   width: 330px;
   max-height: 535px;
-  background-color: var(--lightGrayishBlue);
+  background-color: white;
   border-radius: var(--borderRadius);
   font-family: var(--font);
   position: relative;
